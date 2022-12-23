@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyactuator-example"
+version = "0.1.0"
+description = ""
+authors = ["Miguel Ángel García Flores <miguelangelgarciafloresti@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pyactuator_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+python-dotenv = "^0.21.0"
+pyctuator = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
